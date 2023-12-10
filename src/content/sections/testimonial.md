@@ -1,7 +1,7 @@
 ---
 enable: true
-title: "Waa sagen unsere wichtigsten Partner  -unsere Kunden"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Nextplate."
+title: "Was sagen unsere wichtigsten Partner  -unsere Kunden"
+description: "Wir können natürlich ganz einfach ganz viel Positives über 8ZenSe berichten. Besser aber ist hören Sie was unsere Kuden über uns berichten:"
 
 # Testimonials
 testimonials:

@@ -5,6 +5,8 @@ import Footer from "@/partials/Footer";
 import Header from "@/partials/Header";
 import Providers from "@/partials/Providers";
 import "@/styles/main.scss";
+import { ClerkProvider } from '@clerk/nextjs'
+ 
 
 export default function RootLayout({
   children,
@@ -16,6 +18,7 @@ export default function RootLayout({
   const sf = theme.fonts.font_family.secondary;
 
   return (
+    <ClerkProvider>
     <html suppressHydrationWarning={true} lang="en">
       <head>
         {/* responsive meta */}
@@ -37,7 +40,7 @@ export default function RootLayout({
         <meta
           name="theme-color"
           media="(prefers-color-scheme: dark)"
-          content="#000"
+          content="#fff"
         />
 
         {/* google font css */}
@@ -63,5 +66,6 @@ export default function RootLayout({
         </Providers>
       </body>
     </html>
+    </ClerkProvider>
   );
 }

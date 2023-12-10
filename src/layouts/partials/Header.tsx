@@ -7,6 +7,7 @@ import menu from "@/config/menu.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect } from "react";
+import ButtonOut  from "../../components/ButtonOut"
 import { IoSearch } from "react-icons/io5/index.js";
 
 //  child navigation link interface
@@ -44,6 +45,7 @@ const Header = () => {
         <div className="order-0">
           <Logo />
         </div>
+        <ButtonOut/>
         {/* navbar toggler */}
         <input id="nav-toggle" type="checkbox" className="hidden" />
         <label

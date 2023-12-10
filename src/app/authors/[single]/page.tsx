@@ -2,7 +2,7 @@ import BlogCard from "@/components/BlogCard";
 import Social from "@/components/Social";
 import config from "@/config/config.json";
 import ImageFallback from "@/helpers/ImageFallback";
-import MDXContent from "@/helpers/MDXContent";
+import MDXfrom "@/helpers/MDXContent";
 import { getSinglePage } from "@/lib/contentParser";
 import { slugify } from "@/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
@@ -25,7 +25,7 @@ export const generateStaticParams: () => { single?: string }[] = () => {
 const AuthorSingle = ({ params }: { params: { single: string } }) => {
   const authors: Author[] = getSinglePage("authors");
   const author = authors.filter((page) => page.slug === params.single)[0];
-  const { frontmatter, content } = author;
+  const { frontmatter, } = author;
   const { title, social, meta_title, description, image } = frontmatter;
   const { blog_folder } = config.settings;
   const posts: Post[] = getSinglePage(blog_folder);
@@ -56,7 +56,7 @@ const AuthorSingle = ({ params }: { params: { single: string } }) => {
               )}
               <h1 className="h3 mb-6">{title}</h1>
               <div className="content">
-                <MDXContent content={content} />
+                <MDXcontent={content} />
               </div>
               <Social source={social} className="social-icons" />
             </div>

@@ -61,7 +61,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                     (item: Testimonial, index: number) => (
                       <SwiperSlide key={index}>
                         <div className="rounded-lg bg-theme-light px-7 py-10 dark:bg-darkmode-theme-light">
-                          <div className="text-dark dark:text-white">
+                          <div className="text-red ">
                             <svg
                               width="33"
                               height="20"

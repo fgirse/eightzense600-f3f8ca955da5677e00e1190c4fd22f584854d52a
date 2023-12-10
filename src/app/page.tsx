@@ -99,7 +99,7 @@ const Home = () => {
                 />
               </div>
               <div
-                className={` md:col-7 lg:col-6 ${
+                className={`md:col-7 lg:col-6 ${
                   index % 2 !== 0 && "md:order-1"
                 }`}
               >
