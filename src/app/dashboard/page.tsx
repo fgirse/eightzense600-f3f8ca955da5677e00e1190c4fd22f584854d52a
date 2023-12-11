@@ -25,7 +25,7 @@ export default async function DashboardPage() {
             <OrgDetails />
           </div>
           <h2 className="mt-16 mb-4 text-3xl font-semibold text-black">
-            What's next?
+            What &apos; s next?
           </h2>
           Read the{" "}
           <Link
