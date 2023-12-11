@@ -2,7 +2,7 @@
   "main": [
     {
       "name": "Home",
-      "url": "/"
+      "url": "/home"
     },
     {
       "name": "über uns",
