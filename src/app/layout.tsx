@@ -59,11 +59,11 @@ export default function RootLayout({
 
       <body className="bg-[#2A2B2A] bg-[url('/images/gitter.svg')]  bg-repeat"  suppressHydrationWarning={true}>
         <TwSizeIndicator />
-        <Providers>
+      
           <Header />
           <main>{children}</main>
           <Footer />
-        </Providers>
+        
       </body>
     </html>
     </ClerkProvider>
