@@ -63,7 +63,7 @@ const Home = () => {
               height="166"
               width="166" 
               alt="Logo"
-              className="mb-5 mx-auto rounded-xl shadow-xl shadow-white/50 ">
+              className="mb-12 mx-auto rounded-xl shadow-xl shadow-white/50 ">
 
               </Image>
               </div>
@@ -78,18 +78,8 @@ const Home = () => {
   </div>
 
 
-
-
-
-
-
-
-
-
-
-
     {/* ==============================================  ENDE GRID A ====================================*/}
-<section className="py-7">
+<section className="py-7 flex flex-col items-center">
 <Gallery />
 </section>
      

@@ -20,8 +20,8 @@ const images = IMAGES.map((image) => ({
 
 export default function App() {
   return (
-    <div className="h-60 gap-12">
-      <h1 className="mb-5 text-[2.333rem] text-stone-800">Galllerie</h1>
+    <div className="w-full flex flex-col items-center justify-center">
+      <h1 className="py-24 text-center text-[2.333rem] text-stone-800">Galllerie</h1>
       <Gallery images={images} enableImageSelection={false} />
     </div>
   );
